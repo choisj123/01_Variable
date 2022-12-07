@@ -5,7 +5,7 @@ import java.util.Scanner;
 //import java.util.Scanner; 
 
 
-public class ScannerEample {
+public class ScannerExample {
 
 	public static void main(String[] args) {
 		
@@ -22,31 +22,31 @@ public class ScannerEample {
 		System.out.println("입력하신 값은 "+ input1 + "입니다." );
 
 		System.out.print("실수만 입력하시오: ");
-		double input2 = sc.nextDouble(); //입력받은 정수를 변수 input1에 대입
+		double input2 = sc.nextDouble(); //입력받은 정수를 변수 input2에 대입
 		// nextDouble() : 다음 입력된 실수를 읽어옴 
 		System.out.println("입력하신 값은 "+ input2 + "입니다." );
 		
 		System.out.print("입력1: ");
-		String input3 = sc.next(); //입력받은 정수를 변수 input1에 대입
+		String input3 = sc.next(); //입력받은 정수를 변수 input3에 대입
 		// next() : 다음 입력된 한 단어를 읽어옴
 		System.out.println("입력하신 문자는 "+ input3 + "입니다." );
 		
 		System.out.print("입력2: ");
-		String input4 = sc.next(); //입력받은 정수를 변수 input1에 대입
+		String input4 = sc.next(); //입력받은 정수를 변수 input4에 대입
 		// next() : 다음 입력된 한 단어를 읽어옴
 		System.out.println("입력하신 문자는 "+ input4 + "입니다." ); 
 		
 		System.out.print("입력1: ");
-		String input5 = sc.next(); //입력받은 정수를 변수 input1에 대입
+		String input5 = sc.next(); //입력받은 정수를 변수 input5에 대입
 		// next() : 다음 입력된 한 단어를 읽어옴
 		
 		System.out.print("입력2: ");
-		String input6 = sc.next(); //입력받은 정수를 변수 input1에 대입
+		String input6 = sc.next(); //입력받은 정수를 변수 input6에 대입
 		// next() : 다음 입력된 한 단어를 읽어옴
-		System.out.println(input5 + input6); 
+		System.out.println(input5 + " " + input6); 
 		
 		System.out.print("입력3: ");
-		String input7 = sc.nextLine(); //입력받은 정수를 변수 input1에 대입
+		String input7 = sc.nextLine( ); //입력받은 정수를 변수 input1에 대입
 		// next() : 다음 입력된 한 단어를 읽어옴
 		System.out.println(input7);
 	

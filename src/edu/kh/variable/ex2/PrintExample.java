@@ -14,6 +14,7 @@ public class PrintExample {
 		//System.out.println(); //단순 개행(줄바꿈)
 		System.out.print("테스트4");
 		
+		System.out.println(); 
 		System.out.println(""); 
 		
 		//System.out.printf() : 출력될 문자열 형식을 패턴으로 지정하는 출력구문
